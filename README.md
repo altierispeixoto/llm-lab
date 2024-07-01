@@ -13,19 +13,19 @@ llm-lab
 There are many ways to create virtual environment for python.
 This project uses [conda](https://www.anaconda.com/products/distribution) for virtual environment management.
 
-``bash 
- 
+``bash
+
 conda create --prefix .venv python=3.10
-conda activate ./venv
+conda activate ./.venv
 conda install -c conda-forge poetry==1.8.3
 poetry install
 
-## pre-commit 
+## pre-commit
 pre-commit install &&
     pre-commit autoupdate &&
     pre-commit run -a -v
 
-poetry build 
+poetry build
 
 ```
 
